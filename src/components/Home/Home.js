@@ -9,6 +9,11 @@ const Home = () => {
 				explicabo possimus ratione reprehenderit aliquid amet sint consequuntur
 				atque, sunt deserunt?
 			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio in
+				deleniti voluptate consequuntur officia necessitatibus illo provident
+				quidem dolorem iste at.
+			</p>
 		</div>
 	);
 };
