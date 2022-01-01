@@ -1,0 +1,158 @@
+
+/*--------------------
+  css design starts from here
+---------------------- */
+
+body{
+    overflow-x: hidden;
+}
+
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.938),rgba(8, 8, 8, 0.925), rgba(15, 15, 15, 0.904), rgba(7, 7, 7, 0.911)), url(../../../images/Banner/Banner-4.png);
+    background-size:cover;
+    background-position: center;
+    color: white;
+}
+
+.all-product{
+    width: 80%;
+}
+
+.titile-part{
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    position: relative;
+    writing-mode: vertical-rl;
+    left: -60px;
+    top: 85px;
+    transform: rotate(180deg);
+    font-size: 45px;
+}
+
+.categories{
+    position: relative;
+    writing-mode: vertical-rl;
+    left: 10px;
+    bottom: 120px;
+    transform: rotate(180deg);
+    letter-spacing: 9px;
+}
+
+.product{
+    height: 200px !important;
+    width: 200px !important;
+    text-align: center;
+}
+
+.product img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-desc{
+    margin-top: 0;
+}
+
+/*view more buttons */
+
+.view-more-btn{
+    background-color: #BE0505;
+    border: 2px solid #BE0505;
+    color: white;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+    left: 1239px;
+    bottom: 42px;
+}
+
+.view-more-btn:hover{
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    background-color: white;
+}
+
+
+/*--------------------
+  Media Query for Mobile
+---------------------- */
+
+@media only screen and (max-width:688px){
+    
+    .product-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 70px;
+    }
+
+    .title{
+        position: relative;
+        writing-mode:horizontal-tb;
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+        font-size: 45px;
+        margin-bottom: 7px;
+    }
+    
+    .categories{
+        position: relative;
+        writing-mode: horizontal-tb;
+        left: 0px;
+        bottom: 0px;
+        transform: rotate(0deg);
+        letter-spacing: 10px;
+        margin-top: 0;
+    }
+
+    .titile-part{
+        padding: 20px 0;
+    }
+
+    .view-more-btn{
+        position: relative;
+        left: 140px;
+        bottom: 42px;
+        margin-top: 20px;
+    }
+}
+
+
+/*--------------------
+  Media Query for Ipad
+---------------------- */
+
+@media only screen and (min-width : 689px) and (max-width : 1024px){
+    .product{
+        height: 180px !important;
+        width: 180px !important;
+        text-align: center;
+    }
+
+    .all-product{
+        width: 90%;
+    }
+
+    .view-more-btn{
+        position: relative;
+        left: 340px;
+        bottom: 42px;
+        margin-top: -5px;
+    }
+}
+
+
+/*--------------------
+  css design ends here
+---------------------- */
+
