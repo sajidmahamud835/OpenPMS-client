@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 
-const Contact = () => {
+const About = () => {
 	return (
 		<div>
 			<Header />
-			<h1>This is contact page</h1>
+			<h1>This is about page </h1>
 		</div>
 	);
 };
 
-export default Contact;
+export default About;

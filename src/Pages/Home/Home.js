@@ -5,12 +5,13 @@ import HomeFeatures from "./HomeFeatures/HomeFeatures";
 
 const Home = () => {
 	return (
-		<>
+		<div>
 			<Header />
 			<Banner></Banner>
 			<HomeFeatures></HomeFeatures>
-			<h1>Coming soon</h1>
-		</>
+			<h1>This is home page</h1>
+    
+		<div/>
 	);
 };
 
