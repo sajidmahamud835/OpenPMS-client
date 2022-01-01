@@ -1,0 +1,198 @@
+/*--------------------
+  css design starts from here
+---------------------- */
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    height: 250px;
+    color: white;
+    cursor: pointer;
+}
+
+.service-icon-design{
+    font-size: 70px;
+    color: white;
+    display: block;
+}
+
+.service-title{
+    font-size: 30px;
+    display: block;
+}
+
+.service-desc{
+    display: block;
+}
+
+/* buttons design  */
+
+.sales-btn {
+    background-color: #BDA0A0;
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    display: none;
+}
+
+.rentals-btn {
+    background-color: #BDA0A0;
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    display: none;
+}
+
+.services-btn {
+    background-color: #BDA0A0;
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    display: none;
+}
+
+.service:hover {
+    background: rgba(150, 111, 111, 0.692);
+}
+
+
+/* sales part start here */
+.sales{
+    background-image: linear-gradient(rgba(241, 7, 7, 0.664),rgba(242, 0, 0, 0.815), rgba(255, 0, 0, 0.836), rgba(226, 9, 9, 0.856)), url(../../../images/Banner/Banner-4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sales:hover .sales-btn{
+    display: block;
+}
+
+.sales:hover .service-icon-design {
+    display: none;
+}
+
+.sales:hover .service-desc{
+    display: none;
+}
+
+.sales:hover .service-title{
+    display: none;
+}
+
+/* sales part end here */
+
+
+/* rentals part start here */
+
+.rentals{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.938),rgba(8, 8, 8, 0.925), rgba(15, 15, 15, 0.904), rgba(7, 7, 7, 0.911)), url(../../../images/Banner/Banner-3.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.rentals:hover .rentals-btn{
+    display: block;
+}
+
+.rentals:hover .service-icon-design {
+    display: none;
+}
+
+.rentals:hover .service-desc{
+    display: none;
+}
+
+.rentals:hover .service-title{
+    display: none;
+}
+
+/* rentals part end here */
+
+
+/* services part start here */
+
+.services{
+    background-image: linear-gradient(rgba(58, 52, 52, 0.87),rgba(53, 48, 48, 0.856), rgba(51, 45, 45, 0.836), rgba(51, 46, 46, 0.89)), url(../../../images/Banner/Banner-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.services:hover .services-btn{
+    display: block;
+}
+
+.services:hover .service-icon-design {
+    display: none;
+}
+
+.services:hover .service-desc{
+    display: none;
+}
+
+.services:hover .service-title{
+    display: none;
+}
+
+/*--------------------
+  Media Query for Mobile
+---------------------- */
+
+@media only screen and (max-width:688px){
+
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0px;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+}
+
+/*--------------------
+  Media Query for Ipad
+---------------------- */
+
+@media only screen and (min-width : 689px) and (max-width : 1024px){
+
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+}
+
+/*--------------------
+  css design ends here
+---------------------- */
