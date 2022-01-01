@@ -12,8 +12,7 @@ const Home = () => {
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio in
 				deleniti voluptate consequuntur officia necessitatibus illo provident
-				quidem dolorem iste at, consequatur tenetur enim architecto sint
-				quibusdam dignissimos, nobis sapiente.
+				quidem dolorem iste at.
 			</p>
 		</div>
 	);
