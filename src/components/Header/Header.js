@@ -5,8 +5,8 @@ import "./Header.css";
 const Header = () => {
 	return (
 		<>
-			<div className="border-bottom">
-				<nav className="navbar navbar-expand-lg navbar-light">
+			<div className="border-bottom pms-header-bg">
+				<nav className="navbar navbar-expand-lg navbar-light fixed-top pms-header-bg">
 					<div className="container align-items-center">
 						<NavLink className="navbar-brand fs-4 fw-bold text-danger" to="/">
 							Logo
