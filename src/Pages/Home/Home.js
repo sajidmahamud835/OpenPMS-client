@@ -6,13 +6,13 @@ import HomeFeatures from "./HomeFeatures/HomeFeatures";
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Header />
 			<Banner></Banner>
 			<HomeFeatures></HomeFeatures>
 			<h1>This is home page</h1>
-			<Footer/>
-		<div/>
+			<Footer />
+		</>
 
 	);
 };
