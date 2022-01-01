@@ -10,11 +10,13 @@ const Home = () => {
 			<Header />
 			<Banner></Banner>
 			<HomeFeatures></HomeFeatures>
+
 			<div className="container py-5">
 				<h1>This is home page</h1>
 			</div>
 			<Footer />
 		</>
+
 	);
 };
 
