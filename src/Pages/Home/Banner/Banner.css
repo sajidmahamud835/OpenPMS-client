@@ -1,0 +1,26 @@
+
+/* .top-banner img{
+  height: 100vh;
+  width: 100%;
+    
+} */
+.top-banner {
+    background-image: url('https://blog.trello.com/hubfs/Trello_Blog_Illos_(9)-1.png');
+    background-size:cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 187px;
+    text-shadow: 10px 10px 14px #7e7373;
+    margin-bottom: 20px ;
+    
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.top-banner h1{
+    font-size: 50px;
+}
+.top-banner h5{
+    font-size: 30px;
+}
