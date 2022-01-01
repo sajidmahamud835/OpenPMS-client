@@ -1,0 +1,91 @@
+.pms-header-bg {
+	background-color: #f5f5f5;
+}
+
+.pms-nav-link {
+	color: #000000;
+	position: relative;
+    padding: 3px 0 3px;
+}
+
+.pms-nav-link:hover {
+	color: #db1010 !important;
+}
+
+.pms-nav-link:active {
+	color: #db1010 !important;
+}
+
+.pms-nav-link::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background: #db1010 !important;
+	transition: all 0.3s ease-in;
+}
+
+.pms-nav-link::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background: #db1010 !important;
+	transition: all 0.3s ease-in;
+}
+
+.pms-nav-link:hover::after {
+	width: 100%;
+}
+.pms-nav-link:hover::before {
+	width: 100%;
+}
+
+.active-pms-link {
+	color: #db1010 !important;
+	position: relative;
+}
+
+.active-pms-link::after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background: #db1010 !important;
+}
+
+.active-pms-link::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background: #db1010 !important;
+}
+
+.active-pms-link::after {
+	width: 100%;
+}
+
+.active-pms-link::before {
+	width: 100%;
+}
+
+.pms-btn-outline{
+    padding: 4px 10px;
+}
+
+.navbar-toggler-icon{
+	color: #db1010 !important;
+}
+
+.navbar-toggler:focus{
+	box-shadow: none;
+}
