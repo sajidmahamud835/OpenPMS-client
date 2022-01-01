@@ -5,17 +5,11 @@ import "./Header.css";
 const Header = () => {
 	return (
 		<>
-// 			<div className="bg-warning">
-// 				<div className="container">
-// 					<header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
-// 						<a
-// 							href="/"
-// 							className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none fs-5"
-			<div className="border-bottom">
-				<nav className="navbar navbar-expand-lg navbar-light">
+			<div className="border-bottom pms-header-bg">
+				<nav className="navbar navbar-expand-lg navbar-light fixed-top pms-header-bg">
 					<div className="container align-items-center">
 						<NavLink className="navbar-brand fs-4 fw-bold text-danger" to="/">
-							Logo
+							<i class="fas fa-project-diagram"></i> OpenPMS
 						</NavLink>
 						<button
 							className="navbar-toggler border-danger px-2 py-1"
