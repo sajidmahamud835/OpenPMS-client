@@ -15,7 +15,7 @@ const Header = () => {
 				<nav className="navbar navbar-expand-lg navbar-light">
 					<div className="container align-items-center">
 						<NavLink className="navbar-brand fs-4 fw-bold text-danger" to="/">
-							Logo
+							<i class="fas fa-project-diagram"></i> OpenPMS
 						</NavLink>
 						<button
 							className="navbar-toggler border-danger px-2 py-1"
