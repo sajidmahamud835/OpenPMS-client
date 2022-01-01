@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<>
 			<Header />
-			<div className="container py-5">
+			<div className="container my-5 py-5">
 				<h1>This is contact page</h1>
 			</div>
 			<Footer />
