@@ -8,7 +8,7 @@ const NotFound = () => {
 		<>
 			<Header />
 			<div className="container py-5">
-				<h1>This is home page</h1>
+				<h1>Something went wrong</h1>
 				<br />
 				<Link to="/" className="btn btn-danger">
 					Go to home
