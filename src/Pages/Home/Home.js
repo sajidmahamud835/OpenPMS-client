@@ -13,6 +13,9 @@ const Home = () => {
 			<HomePrice></HomePrice>
 			<h1>Coming soon</h1>
 		</>
+			
+    
+		
 	);
 };
 
