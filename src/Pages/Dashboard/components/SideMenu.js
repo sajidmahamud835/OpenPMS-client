@@ -60,7 +60,7 @@ const SideMenu = (props) => {
 	};
 
 	/*just a little improvement over click function of menuItem
-    Now no need to use expand state variable in MenuItem component
+	Now no need to use expand state variable in MenuItem component
   */
 	useEffect(() => {
 		let menuItems = document.querySelectorAll(".menu-item");
@@ -92,7 +92,7 @@ const SideMenu = (props) => {
 
 			<div className="search-controller">
 				<button className="search-btn">
-					<i className="fas fa-search"></i>
+					<i class="fas fa-search"></i>
 				</button>
 
 				<input type="text" placeholder="search" />

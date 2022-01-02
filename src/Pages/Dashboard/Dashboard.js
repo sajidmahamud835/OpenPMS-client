@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import SideMenu, { menuItems } from "./components/SideMenu";
 import "./Dashboard.css";
 
-const MainDashboard = () => <h1>Dashboard</h1>;
-const Content = () => <h1>Content</h1>;
-const Courses = () => <h1>Content/Courses</h1>;
-const Videos = () => <h1>Content/Videos</h1>;
-const Design = () => <h1>Design</h1>;
-const Content2 = () => <h1>Content2</h1>;
-const Courses2 = () => <h1>Content/Courses 2</h1>;
-const Videos2 = () => <h1>Content/Videos 2</h1>;
-const Design2 = () => <h1>Design 2</h1>;
+// const MainDashboard = () => <h1>Dashboard</h1>;
+// const Content = () => <h1>Content</h1>;
+// const Courses = () => <h1>Content/Courses</h1>;
+// const Videos = () => <h1>Content/Videos</h1>;
+// const Design = () => <h1>Design</h1>;
+// const Content2 = () => <h1>Content2</h1>;
+// const Courses2 = () => <h1>Content/Courses 2</h1>;
+// const Videos2 = () => <h1>Content/Videos 2</h1>;
+// const Design2 = () => <h1>Design 2</h1>;
 
 function Dashboard() {
 	const [inactive, setInactive] = useState(false);
@@ -36,10 +36,10 @@ function Dashboard() {
 							</Route>
 							{menu.subMenus && menu.subMenus.length > 0
 								? menu.subMenus.map((subMenu, i) => (
-										<Route key={subMenu.name} path={subMenu.to}>
-											<h1>{subMenu.name}</h1>
-										</Route>
-								  ))
+									<Route key={subMenu.name} path={subMenu.to}>
+										<h1>{subMenu.name}</h1>
+									</Route>
+								))
 								: null}
 						</>
 					))}
