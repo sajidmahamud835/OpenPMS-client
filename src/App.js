@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
 
@@ -21,6 +22,9 @@ function App() {
 					</Route>
 					<Route path="/contact">
 						<Contact />
+					</Route>
+					<Route path="/dashboard">
+						<Dashboard />
 					</Route>
 					<Route exact path="*">
 						<NotFound />
