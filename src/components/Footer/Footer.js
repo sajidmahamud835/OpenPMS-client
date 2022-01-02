@@ -132,7 +132,7 @@ const Footer = () => {
 								<li className="ms-3">
 									<Link className="link-dark" to="/">
 										<svg
-											ariaHidden="true"
+											aria-hidden="true"
 											focusable="false"
 											dataPrefix="fab"
 											dataIcon="twitter"
@@ -151,7 +151,7 @@ const Footer = () => {
 								<li className="ms-3">
 									<Link className="link-dark" to="/">
 										<svg
-											ariaHidden="true"
+											aria-hidden="true"
 											focusable="false"
 											dataPrefix="fab"
 											dataIcon="instagram"
@@ -170,7 +170,7 @@ const Footer = () => {
 								<li className="ms-3">
 									<Link className="link-dark" to="/">
 										<svg
-											ariaHidden="true"
+											aria-hidden="true"
 											focusable="false"
 											dataPrefix="fab"
 											dataIcon="facebook"

@@ -13,19 +13,19 @@ export const menuItems = [
 		name: "Dashboard",
 		exact: true,
 		to: "/",
-		iconClassName: "bi bi-speedometer2",
+		iconClassName: "fas fa-th-large",
 	},
 	{
 		name: "Content",
 		exact: true,
 		to: `/content`,
-		iconClassName: "bi bi-speedometer2",
+		iconClassName: "fas fa-th-large",
 		subMenus: [
 			{ name: "Courses", to: "/content/courses" },
 			{ name: "Videos", to: "/content/videos" },
 		],
 	},
-	{ name: "Design", to: `/design`, iconClassName: "bi bi-vector-pen" },
+	{ name: "Design", to: `/design`, iconClassName: "fas fa-pen" },
 	{
 		name: "Content 2",
 		exact: true,

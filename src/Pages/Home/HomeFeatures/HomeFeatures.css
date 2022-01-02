@@ -41,9 +41,9 @@
 /* buttons design  */
 
 .sales-btn {
-    background-color: #BDA0A0;
-    border: 2px solid #BE0505;
-    color: #BE0505;
+    background-color: #71b8da;
+    border: 2px solid white;
+    color: white;
     padding: 12px 25px;
     font-size: 12px;
     cursor: pointer;
@@ -53,9 +53,9 @@
 }
 
 .rentals-btn {
-    background-color: #BDA0A0;
-    border: 2px solid #BE0505;
-    color: #BE0505;
+    background-color: #8dbde4;
+    border: 2px solid white;
+    color: whitesmoke;
     padding: 12px 25px;
     font-size: 12px;
     cursor: pointer;
@@ -65,9 +65,9 @@
 }
 
 .services-btn {
-    background-color: #BDA0A0;
-    border: 2px solid #BE0505;
-    color: #BE0505;
+    background-color: #8dbde4;
+    border: 2px solid white;
+    color: white;
     padding: 12px 25px;
     font-size: 12px;
     cursor: pointer;
@@ -76,14 +76,14 @@
     display: none;
 }
 
-.service:hover {
-    background: rgba(150, 111, 111, 0.692);
-}
+/* .service:hover {
+    background: rgba(209, 217, 223, 0.692);
+} */
 
 
 /* sales part start here */
 .sales{
-    background-image: linear-gradient(rgba(241, 7, 7, 0.664),rgba(242, 0, 0, 0.815), rgba(255, 0, 0, 0.836), rgba(226, 9, 9, 0.856)), url(../../../images/Banner/Banner-4.png);
+    background-image: linear-gradient(rgba(10, 10, 10, 0.938),rgba(8, 8, 8, 0.925), rgba(15, 15, 15, 0.904), rgba(7, 7, 7, 0.911)), url(../../../images/Banner/Banner-4.png);
     background-size: cover;
     background-position: center;
 }
