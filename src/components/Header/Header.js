@@ -4,6 +4,7 @@ import "./Header.css";
 
 const Header = () => {
 	return (
+
 		<>
 			<div className="border-bottom pms-header-bg">
 				<nav className="navbar navbar-expand-lg navbar-light fixed-top pms-header-bg">
@@ -80,10 +81,12 @@ const Header = () => {
 								</div>
 							</ul>
 						</div>
+
 					</div>
-				</nav>
-			</div>
-		</>
+				</div>
+			</nav>
+		</div>
+
 	);
 };
 
