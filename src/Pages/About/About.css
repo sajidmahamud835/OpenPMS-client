@@ -2,3 +2,48 @@
     padding: 100px 0;
     background-color: #f7f7f7;
 }
+
+.teamSection{
+    position: relative;
+}
+.team::before{
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-color: red;
+    margin-top: 53px;
+
+}
+.memberspic{
+    overflow: hidden;
+}
+.memberPic{
+    transition: all 0.3s;
+}
+.memberPic:hover{
+   transform: scale(1.2);
+   overflow: hidden;
+}
+
+
+
+.teamcard{
+    position: relative;
+}
+
+.teamInfo::before{
+    
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    content: "";
+    background-color: red;
+    transition: all 1s;
+
+}
+.teamInfo:hover::before{
+width: 100%;
+z-index: -1;
+
+}
