@@ -12,7 +12,7 @@ export const menuItems = [
 	{
 		name: "Dashboard",
 		exact: true,
-		to: "/",
+		to: "//dashboard",
 		iconClassName: "fas fa-th-large",
 	},
 	{
@@ -21,24 +21,24 @@ export const menuItems = [
 		to: `/content`,
 		iconClassName: "fas fa-th-large",
 		subMenus: [
-			{ name: "Courses", to: "/content/courses" },
-			{ name: "Videos", to: "/content/videos" },
+			{ name: "Courses", to: "/dashboard/content/courses" },
+			{ name: "Videos", to: "/dashboard/content/videos" },
 		],
 	},
-	{ name: "Design", to: `/design`, iconClassName: "fas fa-pen" },
+	{ name: "Design", to: `/dashboard/design`, iconClassName: "fas fa-pen" },
 	{
 		name: "Content 2",
 		exact: true,
-		to: `/content-2`,
-		iconClassName: "bi bi-speedometer2",
+		to: `/dashboard/content-2`,
+		iconClassName: "fas fa-pen",
 		subMenus: [
-			{ name: "Courses", to: "/content-2/courses" },
-			{ name: "Videos", to: "/content-2/videos" },
+			{ name: "Courses", to: "/dashboard/content-2/courses" },
+			{ name: "Videos", to: "/dashboard/content-2/videos" },
 		],
 	},
-	{ name: "Design 2", to: `/design-2`, iconClassName: "bi bi-vector-pen" },
-	{ name: "Design 3", to: `/design-3`, iconClassName: "bi bi-vector-pen" },
-	{ name: "Design 4", to: `/design-4`, iconClassName: "bi bi-vector-pen" },
+	{ name: "Design 2", to: `/dashboard/design-2`, iconClassName: "fas fa-pen" },
+	{ name: "Design 3", to: `/dashboard/design-3`, iconClassName: "fas fa-pen" },
+	{ name: "Design 4", to: `/dashboard/design-4`, iconClassName: "fas fa-pen" },
 ];
 
 const SideMenu = (props) => {
@@ -70,7 +70,6 @@ const SideMenu = (props) => {
 				removeActiveClassFromSubMenu();
 				menuItems.forEach((el) => el.classList.remove("active"));
 				el.classList.toggle("active");
-				console.log(next);
 				if (next !== null) {
 					next.classList.toggle("active");
 				}
@@ -84,16 +83,16 @@ const SideMenu = (props) => {
 				<div className="logo">{/* <img src={logo} alt="webscript" /> */}</div>
 				<div onClick={() => setInactive(!inactive)} className="toggle-menu-btn">
 					{inactive ? (
-						<i class="fas fa-arrow-right"></i>
+						<i className="border p-1 fs-2 fas fa-bars"></i>
 					) : (
-						<i class="fas fa-arrow-left"></i>
+						<i className="border p-1 fs-2 fas fa-bars"></i>
 					)}
 				</div>
 			</div>
 
 			<div className="search-controller">
 				<button className="search-btn">
-                <i class="fas fa-search"></i>
+					<i className="fas fa-search"></i>
 				</button>
 
 				<input type="text" placeholder="search" />
@@ -122,7 +121,7 @@ const SideMenu = (props) => {
 					{/* <li>
             <a className="menu-item">
               <div className="menu-icon">
-                <i class="bi bi-speedometer2"></i>
+                <i className="bi bi-speedometer2"></i>
               </div>
               <span>Dashboard</span>
             </a>
@@ -134,7 +133,7 @@ const SideMenu = (props) => {
           <li>
             <a className="menu-item">
               <div className="menu-icon">
-                <i class="bi bi-vector-pen"></i>
+                <i className="fas fa-pen"></i>
               </div>
               <span>Design</span>
             </a>
@@ -145,8 +144,8 @@ const SideMenu = (props) => {
 			<div className="side-menu-footer">
 				<div className="avatar">{/* <img src={user} alt="user" /> */}</div>
 				<div className="user-info">
-					<h5>Rizwan Khan</h5>
-					<p>rizwankhan@gmail.com</p>
+					<h5>John Wick</h5>
+					<p>johnwick@gmail.com</p>
 				</div>
 			</div>
 		</div>
