@@ -14,7 +14,7 @@ const Home = () => {
 			<HomePrice></HomePrice>
 			<div className="container py-5">
 				<h1>This is home page</h1>
-				<p>hello</p>
+				
 				
 			</div>
 			<Footer />
