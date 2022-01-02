@@ -36,7 +36,7 @@ const About = () => {
 			<Header />
 			<div className="py-5 my-5">
 				<div>
-				    <h1 className="text-center fw-bolder about">About Us</h1>
+					<h1 className="text-center fw-bolder about">About Us</h1>
 				</div>
 
 				<div className="container">
@@ -46,7 +46,7 @@ const About = () => {
 					<p className="text-center text-muted">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
 
 					<div className="row my-5 mx-0 px-0 align-items-center">
-						
+
 						<div className="col-12 col-md-6">
 							<img src={picture} alt="" />
 						</div>
