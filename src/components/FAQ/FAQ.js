@@ -10,7 +10,7 @@ const FAQ = () => {
         <>
         <Header></Header>
         <div className='my-5'>
-            <div className='container'>
+            <div className='px-5'>
                 <div className='row align-content-center justify-content-around'> 
                     <div className='col-12 col-md-6'>
                     <div class="accordion" id="accordionExample">
