@@ -37,12 +37,12 @@ function App() {
 					</Route>
 					<Route path="/faq">
 						<Header />
-						<FAQ></FAQ>
+						<FAQ />
 						<Footer />
 					</Route>
 					<Route path="/pricing">
 						<Header />
-						<Pricing></Pricing>
+						<Pricing />
 						<Footer />
 					</Route>
 					<Route path="/dashboard">
