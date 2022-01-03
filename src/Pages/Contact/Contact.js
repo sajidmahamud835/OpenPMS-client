@@ -9,7 +9,7 @@ const Contact = () => {
 					<div className='text-center my-5'>
 						<h1 className='bedroomdesign d-inline'>Contact Us</h1>
 					</div>
-					<div className='row mx-0 px-0'>
+					<div className='row mx-5 px-5'>
 						<div className='col-12 col-md-6'>
 							<form id="contactform" action="https://formsubmit.io/send/farukeomar@gmail.com" method="POST">
 								<input type="text" class="form-control mb-2" id="exampleFormControlInput1" placeholder="name" name="name" />
