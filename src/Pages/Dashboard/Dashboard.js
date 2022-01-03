@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import SideMenu, { menuItems } from "./components/SideMenu";
 import "./Dashboard.css";
 import Pages from "./Pages/Pages";
@@ -34,10 +34,10 @@ function Dashboard() {
 							</Route>
 							{menu.subMenus && menu.subMenus.length > 0
 								? menu.subMenus.map((subMenu, i) => (
-										<Route key={subMenu.name} path={subMenu.to}>
-											<Pages pageName={subMenu.name} />
-										</Route>
-								  ))
+									<Route key={subMenu.name} path={subMenu.to}>
+										<Pages pageName={subMenu.name} />
+									</Route>
+								))
 								: null}
 						</>
 					))}

@@ -1,11 +1,8 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
 
 const Contact = () => {
 	return (
 		<>
-			<Header />
 			<div className="container my-5 py-5">
 				<div className="container">
 					<div className="text-center my-5">
@@ -67,7 +64,6 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</>
 	);
 };

@@ -81,13 +81,13 @@ const Header = () => {
 						</ul>
 					</div>
 				</div>
-			
+
 			</nav>
-			
+
 		</div>
 
 
 	);
 };
 
-			export default Header;
+export default Header;
