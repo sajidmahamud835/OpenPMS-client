@@ -12,13 +12,13 @@ export const menuItems = [
 	{
 		name: "Dashboard",
 		exact: true,
-		to: "/dashboard",
+		to: "//dashboard",
 		iconClassName: "fas fa-th-large",
 	},
 	{
 		name: "Content",
 		exact: true,
-		to: `/dashboard/content`,
+		to: `/content`,
 		iconClassName: "fas fa-th-large",
 		subMenus: [
 			{ name: "Courses", to: "/dashboard/content/courses" },
