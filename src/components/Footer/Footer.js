@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<>
 			<div className="border-top">
-				<div className="px-4">
+				<div className="container">
 					<footer className="py-5">
 						<div className="row justify-content-between">
 							<div className=" col-6 col-md-6 col-lg-2">
