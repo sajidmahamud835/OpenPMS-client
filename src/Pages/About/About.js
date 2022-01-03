@@ -34,7 +34,7 @@ const About = () => {
 	]
 	return (
 		<>
-			<Header />
+			
 			<div className="py-5 my-5">
 				<div>
 					<h1 className="text-center fw-bolder about">About Us</h1>
@@ -104,7 +104,7 @@ const About = () => {
 				</div>
 
 			</div>
-			<Footer />
+			
 		</>
 	);
 };

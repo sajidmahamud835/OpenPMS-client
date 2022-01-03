@@ -8,7 +8,7 @@ const FAQ = () => {
 
     return (
         <>
-        <Header></Header>
+        
         <div className='my-5'>
             <div className='px-5'>
                 <div className='row align-content-center justify-content-around'> 
@@ -99,7 +99,7 @@ const FAQ = () => {
 
             </div>
         </div>
-        <Footer></Footer>
+      
         </>
     );
 };
