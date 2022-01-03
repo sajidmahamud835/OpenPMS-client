@@ -1,0 +1,13 @@
+.mostpopular{
+    background-color: #e8f0fe;
+    display: none;
+}
+.mostpopulardiv:hover .mostpopular{
+    display: block;
+
+}
+.pricecard:hover{
+    
+    background-color: aquamarine;
+    
+}

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import FAQ from "./components/FAQ/FAQ";
+import Pricing from "./components/Pricing/Pricing";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Dashboard from "./Pages/Dashboard/Dashboard";
@@ -26,6 +27,9 @@ function App() {
 					</Route>
 					<Route path="/faq">
 						<FAQ></FAQ>
+					</Route>
+					<Route path="/pricing">
+						<Pricing></Pricing>
 					</Route>
 					<Route path="/dashboard">
 						<Dashboard />
