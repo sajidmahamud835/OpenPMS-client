@@ -12,8 +12,8 @@ const Header = () => {
 		// 							href="/"
 		// 							className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none fs-5"
 		<div className="border-bottom">
-			<nav className="navbar navbar-expand-lg navbar-light">
-				<div className="container align-items-center">
+			<nav className="">
+				<div className="navbar navbar-expand-lg navbar-light px-4">
 					<NavLink className="navbar-brand fs-4 fw-bold text-danger" to="/">
 						<i className="fas fa-project-diagram"></i> OpenPMS
 					</NavLink>
@@ -32,7 +32,7 @@ const Header = () => {
 						className="collapse navbar-collapse"
 						id="navbarSupportedContent"
 					>
-						<ul className="navbar-nav  align-items-center ms-auto mb-2 mb-lg-0">
+						<ul className="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
 							<li className="nav-item mt-3 mt-lg-0">
 								<NavLink
 									className="nav-link px-1 pms-nav-link mx-3"
