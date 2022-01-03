@@ -217,3 +217,16 @@
 .container.inactive {
 	margin-left: 80px;
 }
+
+.add-product-textarea {
+	width: 660px;
+}
+
+@media only screen and (max-width: 480px) {
+	.add-product-textarea {
+		width: 275px;
+	}
+	.add-product-input {
+		width: 100%!important;
+	}
+}
