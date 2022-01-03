@@ -83,7 +83,7 @@
 
 /* sales part start here */
 .sales{
-    background-image: linear-gradient(rgba(10, 10, 10, 0.938),rgba(8, 8, 8, 0.925), rgba(15, 15, 15, 0.904), rgba(7, 7, 7, 0.911)), url(../../../images/Banner/Banner-4.png);
+    background-image: linear-gradient(rgba(58, 52, 52, 0.87),rgba(53, 48, 48, 0.856), rgba(51, 45, 45, 0.836), rgba(51, 46, 46, 0.89)), url(../../../images/Banner/Banner-4.png);
     background-size: cover;
     background-position: center;
 }
@@ -110,7 +110,7 @@
 /* rentals part start here */
 
 .rentals{
-    background-image: linear-gradient(rgba(10, 10, 10, 0.938),rgba(8, 8, 8, 0.925), rgba(15, 15, 15, 0.904), rgba(7, 7, 7, 0.911)), url(../../../images/Banner/Banner-3.png);
+    background-image:linear-gradient(rgba(58, 52, 52, 0.87),rgba(53, 48, 48, 0.856), rgba(51, 45, 45, 0.836), rgba(51, 46, 46, 0.89)), url(../../../images/Banner/Banner-3.png);
     background-size: cover;
     background-position: center;
     

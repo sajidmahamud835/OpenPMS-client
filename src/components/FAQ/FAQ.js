@@ -11,79 +11,59 @@ const FAQ = () => {
                 <div className='px-5'>
                     <div className='row align-content-center justify-content-around'>
                         <div className='col-12 col-md-6'>
-                            <div class="accordion" id="accordionExample">
+                            <div class="accordion mt-5" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Accordion Item #1
+                                        I'm running an EOL version of an Atlassian product. Will I receive support for it?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
+                                        Only if you are going to perform an upgrade. Once an Atlassian product reaches its EOL (End of Life), the support team will no longer provide assistance on questions, requests or problems until the product is upgraded to a supported version                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Accordion Item #2
-                                        </button>
+                                        My license has expired/I don't have license. Will I receive support?                                        </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
+                                        No. The support engineers will always need a SEN number to provide assistance on the case (even if the license is an Evaluation). If your license has expired, please open a renewal request with the Sales Team. Once the renewal procedure is confirmed, you will already be eligible for support.                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Accordion Item #3
-                                        </button>
+                                        I need a developer license for a test instance. How do I get one?                                                 </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingf">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef" aria-expanded="true" aria-controls="collapsef">
-                                            Accordion Item #4
-                                        </button>
-                                    </h2>
-                                    <div id="collapsef" class="accordion-collapse collapse show" aria-labelledby="headingf" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
+                                        Every license (besides the Evaluation and Starter licenses) is eligible to generate a developer/test license. If you browse to your my.atlassian.com account, you will see the option to generate a developer license (which is completely free of additional costs).                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingfi">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefi" aria-expanded="true" aria-controls="collapsefi">
-                                            Accordion Item #5
-                                        </button>
+                                        I'm demanding a call from the support. Will I receive it?                                        </button>
                                     </h2>
                                     <div id="collapsefi" class="accordion-collapse collapse show" aria-labelledby="headingfi" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
+                                        Inbound phone assistance is reserved for Premier/Priority customers. You can surely request an outbound phone call for further assistance, but please be sure that you have already provided everything which was request by the support team                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingS">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseS" aria-expanded="true" aria-controls="collapseS">
-                                            Accordion Item #6
-                                        </button>
+                                    <h2 class="accordion-header" id="headingfi">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefi" aria-expanded="true" aria-controls="collapsefi">
+I have a development question. Where should I address it to?                                        </button>
                                     </h2>
-                                    <div id="collapseS" class="accordion-collapse collapse show" aria-labelledby="headingS" data-bs-parent="#accordionExample">
+                                    <div id="collapsefi" class="accordion-collapse collapse show" aria-labelledby="headingfi" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                        </div>
+                                        offering, customers with these kind of questions should first look for a solution at our development resource site, Atlassian Developers. If you still have questions, you can post directly on Atlassian Community, where our whole community                                                                           </div>
                                     </div>
                                 </div>
+                               
 
                             </div>
 
