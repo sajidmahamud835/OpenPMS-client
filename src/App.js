@@ -14,34 +14,46 @@ function App() {
 	return (
 		<>
 			<Router>
-				<Header></Header>
 				<Switch>
 					<Route exact path="/">
+						<Header />
 						<Home />
+						<Footer />
 					</Route>
 					<Route path="/home">
+						<Header />
 						<Home />
+						<Footer />
 					</Route>
 					<Route path="/about">
+						<Header />
 						<About />
+						<Footer />
 					</Route>
 					<Route path="/contact">
+						<Header />
 						<Contact />
+						<Footer />
 					</Route>
 					<Route path="/faq">
+						<Header />
 						<FAQ></FAQ>
+						<Footer />
 					</Route>
 					<Route path="/pricing">
+						<Header />
 						<Pricing></Pricing>
+						<Footer />
 					</Route>
 					<Route path="/dashboard">
 						<Dashboard />
 					</Route>
 					<Route exact path="*">
+						<Header />
 						<NotFound />
+						<Footer />
 					</Route>
 				</Switch>
-				<Footer></Footer>
 			</Router>
 		</>
 	);
