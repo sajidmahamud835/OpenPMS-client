@@ -13,7 +13,7 @@ import Users from "./Users/Users";
 
 const Pages = (props) => {
 	const { pageName } = props;
-	console.log(props);
+	// console.log(props);
 
 	if (pageName === "Dashboard") {
 		return <MainDashboard />;
