@@ -73,7 +73,7 @@ const About = () => {
 					</div>
 				</div>
 
-				<div className="container my-5">
+				<div className="px-5 my-5">
 					  <div className="teamSection my-2">
 					      <h2 className="team">Team Member</h2>
 					  </div>
