@@ -4,15 +4,8 @@ import "./Header.css";
 
 const Header = () => {
 	return (
-
-
-		// 			<div className="bg-warning">
-		// 				<div className="container">
-		// 					<header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
-		// 						<a
-		// 							href="/"
-		// 							className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none fs-5"
 		<div className="border-bottom">
+
 			<nav className="">
 				<div className="navbar navbar-expand-lg navbar-light px-4">
 					<NavLink className="navbar-brand fs-4 fw-bold text-danger" to="/">
@@ -87,12 +80,14 @@ const Header = () => {
 							</div>
 						</ul>
 					</div>
-				</nav>
-			</div>
+				</div>
+			
+			</nav>
+			
+		</div>
 
-		</>
 
 	);
 };
 
-export default Header;
+			export default Header;
