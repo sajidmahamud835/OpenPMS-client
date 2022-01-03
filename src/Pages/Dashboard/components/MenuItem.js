@@ -28,7 +28,7 @@ const MenuItem = (props) => {
 			{subMenus && subMenus.length > 0 ? (
 				<ul className={`sub-menu`}>
 					{subMenus.map((menu, index) => (
-						<li key={index}>
+						<li key={menu.name}>
 							<NavLink to={menu.to}>{menu.name}</NavLink>
 						</li>
 					))}

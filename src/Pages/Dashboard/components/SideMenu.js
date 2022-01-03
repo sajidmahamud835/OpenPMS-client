@@ -16,29 +16,44 @@ export const menuItems = [
 		iconClassName: "fas fa-th-large",
 	},
 	{
-		name: "Content",
+		name: "Projects",
 		exact: true,
-		to: `/dashboard/content`,
-		iconClassName: "fas fa-th-large",
+		to: `/dashboard/all-projects`,
+		iconClassName: "far fa-edit",
 		subMenus: [
-			{ name: "Courses", to: "/dashboard/content/courses" },
-			{ name: "Videos", to: "/dashboard/content/videos" },
+			{ name: "Add a project", to: "/dashboard/projects/Add-a-project" },
+			{
+				name: "Completed projects",
+				to: "/dashboard/projects/completed-project",
+			},
 		],
 	},
-	{ name: "Design", to: `/dashboard/design`, iconClassName: "fas fa-pen" },
 	{
-		name: "Content 2",
+		name: "All Tasks",
 		exact: true,
-		to: `/dashboard/content-2`,
-		iconClassName: "fas fa-pen",
+		to: `/dashboard/all-task`,
+		iconClassName: "fas fa-clipboard-list",
 		subMenus: [
-			{ name: "Courses", to: "/dashboard/content-2/courses" },
-			{ name: "Videos", to: "/dashboard/content-2/videos" },
+			{ name: "Add a task", to: "/dashboard/all-task/Add-a-tasks" },
+			{ name: "Completed task", to: "/dashboard/all-task/completed-task" },
 		],
 	},
-	{ name: "Design 2", to: `/dashboard/design-2`, iconClassName: "fas fa-pen" },
-	{ name: "Design 3", to: `/dashboard/design-3`, iconClassName: "fas fa-pen" },
-	{ name: "Design 4", to: `/dashboard/design-4`, iconClassName: "fas fa-pen" },
+	{
+		name: "All Users",
+		exact: true,
+		to: `/dashboard/users`,
+		iconClassName: "fas fa-users",
+		subMenus: [
+			{ name: "Add users", to: "/dashboard/users/add-users" },
+			{ name: "Make role", to: "/dashboard/users/make-role" },
+		],
+	},
+	{ name: "Support", to: `/dashboard/support`, iconClassName: "fas fa-pen" },
+	{
+		name: "Live Chat",
+		to: `/dashboard/live-chat`,
+		iconClassName: "far fa-comments",
+	},
 ];
 
 const SideMenu = (props) => {
@@ -52,16 +67,12 @@ const SideMenu = (props) => {
 		props.onCollapse(inactive);
 	}, [inactive]);
 
-	//just an improvment and it is not recorded in video :(
 	const removeActiveClassFromSubMenu = () => {
 		document.querySelectorAll(".sub-menu").forEach((el) => {
 			el.classList.remove("active");
 		});
 	};
 
-	/*just a little improvement over click function of menuItem
-	Now no need to use expand state variable in MenuItem component
-  */
 	useEffect(() => {
 		let menuItems = document.querySelectorAll(".menu-item");
 		menuItems.forEach((el) => {
@@ -92,7 +103,7 @@ const SideMenu = (props) => {
 
 			<div className="search-controller">
 				<button className="search-btn">
-					<i class="fas fa-search"></i>
+					<i className="fas fa-search"></i>
 				</button>
 
 				<input type="text" placeholder="search" />
@@ -104,7 +115,7 @@ const SideMenu = (props) => {
 				<ul>
 					{menuItems.map((menuItem, index) => (
 						<MenuItem
-							key={index}
+							key={menuItem.name}
 							name={menuItem.name}
 							exact={menuItem.exact}
 							to={menuItem.to}
@@ -142,7 +153,12 @@ const SideMenu = (props) => {
 			</div>
 
 			<div className="side-menu-footer">
-				<div className="avatar">{/* <img src={user} alt="user" /> */}</div>
+				<div className="avatar">
+					<img
+						src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+						alt="user"
+					/>
+				</div>
 				<div className="user-info">
 					<h5>John Wick</h5>
 					<p>johnwick@gmail.com</p>
