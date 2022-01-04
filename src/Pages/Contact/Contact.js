@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
 	return (
 		<>
-			<div className="container my-5 py-5">
-				<div className="container">
+			<div className=" my-5 py-5">
+				<div className="px-5 mx-5">
 					<div className="text-center my-5">
 						<h1 className="bedroomdesign d-inline">Contact Us</h1>
 					</div>
@@ -53,9 +53,9 @@ const Contact = () => {
 						<div className="col-12 col-md-6">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118830.244774502!2d91.93286059496677!3d21.45104335684565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc7ea2ab928c3%3A0x3b539e0a68970810!2z4KaV4KaV4KeN4Ka44Kas4Ka-4Kac4Ka-4Kaw!5e0!3m2!1sbn!2sbd!4v1639146692996!5m2!1sbn!2sbd"
-								title="omar"
+								title="openpms"
 								width="600"
-								height="450"
+								height="390"
 								style={{ border: 0 }}
 								allowfullscreen=""
 								loading="lazy"
