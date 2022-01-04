@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 const HomePrice = () => {
     var settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -24,8 +24,8 @@ const HomePrice = () => {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -33,9 +33,9 @@ const HomePrice = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
                 }
             },
             {
@@ -55,8 +55,8 @@ const HomePrice = () => {
                 {/* title  */}
 
                 <div className="title-part">
-                    <h1 className="title">PRODUCT</h1>
-                    <h3 className="categories">PRICING</h3>
+                    <h1 className="title">CLIENT</h1>
+                    <h3 className="categories">REVIEW</h3>
                 </div>
 
                 {/* slick slider starts from here  */}
@@ -66,61 +66,57 @@ const HomePrice = () => {
 
                         <div className="product">
                             {/* <img src={img1} alt="" /> */}
-                            <h4>Fire Suprresion</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>James Bond</h4>
+                            <p className="product-desc">The Services of Each Team Member is really aprreciated</p>
                         </div>
 
                         <div className="product">
                             {/* <img src={img2} alt="" /> */}
-                            <h4>First Aid</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>Bill Gomes</h4>
+                            <p className="product-desc">Instead of focusing on the competition, focus on the customer</p>
                         </div>
 
                         <div className="product">
                             {/* <img src={img3} alt="" /> */}
-                            <h4>Safety Apparel</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>Ellite Watson</h4>
+                            <p className="product-desc">The Services of Each Team Member is really aprreciated</p>
                         </div>
 
                         <div className="product">
                             {/* <img src={img4} alt="" /> */}
-                            <h4>Visibility Aids</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>Margot Robbie</h4>
+                            <p className="product-desc">Instead of focusing on the competition, focus on the customer</p>
                         </div>
 
                         <div className="product">
                             {/* <img src={img1} alt="" /> */}
-                            <h4>Fire Suprresion</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>Sophie Turner</h4>
+                            <p className="product-desc">The Services of Each Team Member is really aprreciated</p>
                         </div>
 
                         <div className="product">
                             {/* <img src={img3} alt="" /> */}
-                            <h4>Safety Apparel</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>Natasha Malkova</h4>
+                            <p className="product-desc">Instead of focusing on the competition, focus on the customer</p>
                         </div>
 
                         <div className="product">
                             {/* <img src={img2} alt="" /> */}
-                            <h4>First Aid</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
+                            <h4>Cris Hamsworth</h4>
+                            <p className="product-desc">The Services of Each Team Member is really aprreciated</p>
                         </div>
 
-                        <div className="product">
-                            {/* <img src={img4} alt="" /> */}
-                            <h4>Visibility Aids</h4>
-                            <p className="product-desc">Duis aute irure dolor reprehenderit in voluptate velit esse cilium dolore eu fugiat nulla pariatur.</p>
-                        </div>
+   
                     </Slider>
                 </div>
-
+              
             </div>
 
             {/* button  */}
-
-            <div>
+            {/* <div>
                 <button className="view-more-btn">View More</button>
-            </div>
+            </div> */}
+            
         </>
     );
 };
