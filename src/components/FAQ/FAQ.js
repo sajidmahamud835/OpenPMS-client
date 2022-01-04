@@ -1,9 +1,7 @@
-import React from 'react';
-import faqPic from "../../images/FAQ/FAQs.gif"
+import React from "react";
+import faqPic from "../../images/FAQ/FAQs.gif";
 
 const FAQ = () => {
-
-
     return (
         <>
 
