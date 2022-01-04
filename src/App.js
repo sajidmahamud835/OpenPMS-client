@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import firebaseInit from "./auth/Firebase/firebaseInit";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -9,8 +10,12 @@ import Contact from "./Pages/Contact/Contact";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
+import { GoogleAuthProvider } from "firebase/auth";
 
 function App() {
+	//firebase auth
+	const googleAuthProvider = new GoogleAuthProvider();
+	firebaseInit();
 	return (
 		<>
 			<Router>
