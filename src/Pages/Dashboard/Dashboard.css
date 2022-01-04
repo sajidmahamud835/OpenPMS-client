@@ -9,7 +9,7 @@
 }
 
 .side-menu.inactive {
-	width: 70px;
+	width: 82px;
 }
 
 .side-menu .top-section {
@@ -223,10 +223,19 @@
 }
 
 @media only screen and (max-width: 480px) {
+	.side-menu {
+		padding: 20px 5px;
+	}
+	.side-menu.inactive {
+		width: 50px;
+	}
+	.side-menu-footer {
+		padding: 10px 5px;
+	}
 	.add-product-textarea {
 		width: 275px;
 	}
 	.add-product-input {
-		width: 100%!important;
+		width: 100% !important;
 	}
 }

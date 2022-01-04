@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 import MenuItem from "./MenuItem";
 
@@ -91,7 +92,11 @@ const SideMenu = (props) => {
 	return (
 		<div className={`side-menu ${inactive ? "inactive" : ""}`}>
 			<div className="top-section">
-				<div className="logo">{/* <img src={logo} alt="webscript" /> */}</div>
+				<div className="">
+					<NavLink className="fs-4 fw-bold text-danger text-decoration-none" to="/">
+						<i className="fas fa-project-diagram"></i> OpenPMS
+					</NavLink>
+				</div>
 				<div onClick={() => setInactive(!inactive)} className="toggle-menu-btn">
 					{inactive ? (
 						<i className="border p-1 fs-2 fas fa-bars"></i>

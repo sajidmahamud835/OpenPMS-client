@@ -3,7 +3,7 @@ import React from "react";
 const CompletedProjects = () => {
 	return (
 		<div>
-			<h1>All completed projects here</h1>
+			<h1 className="fs-2">Completed projects</h1>
 		</div>
 	);
 };
