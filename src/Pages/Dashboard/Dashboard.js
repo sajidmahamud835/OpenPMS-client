@@ -18,7 +18,7 @@ function Dashboard() {
 	const [inactive, setInactive] = useState(false);
 
 	return (
-		<div>
+		<div id="dashboard">
 			<Router>
 				<SideMenu
 					onCollapse={(inactive) => {

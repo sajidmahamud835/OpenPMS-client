@@ -40,24 +40,24 @@ const Team = () => {
 			"position": "Manager"
 		},
 		{
+			"img": member4,
+			"name": "Sohan",
+			"position": "Founder"
+		},
+		{
 			"img": member3,
 			"name": "Sajid",
 			"position": "Team Leader"
 		},
-		{
-			"img": member4,
-			"name": "Sohan",
-			"position": "Founder"
-		}
 	]
 	return (
-		<div className="px-5 my-5">
+		<div className="container">
 			<div className="teamSection my-2">
-				<h2 className="team">Team Member</h2>
+				<h2 className="team text-center">Our Team</h2>
 			</div>
 			<hr />
 
-			<div className="row my-5 mx-0 px-0 container justify-content-center">
+			<div className="row my-5 mx-0 px-0 container justify-content-center container">
 				<Carousel
 
 					showDots={false}

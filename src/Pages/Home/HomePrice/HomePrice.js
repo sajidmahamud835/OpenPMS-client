@@ -49,7 +49,7 @@ const HomePrice = () => {
     };
 
     return (
-        <>
+        <div className="container">
             <div className="product-container mt-5">
 
                 {/* title  */}
@@ -106,18 +106,18 @@ const HomePrice = () => {
                             <p className="product-desc">The Services of Each Team Member is really aprreciated</p>
                         </div>
 
-   
+
                     </Slider>
                 </div>
-              
+
             </div>
 
             {/* button  */}
             {/* <div>
                 <button className="view-more-btn">View More</button>
             </div> */}
-            
-        </>
+
+        </div>
     );
 };
 

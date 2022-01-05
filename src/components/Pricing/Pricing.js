@@ -3,7 +3,7 @@ import "./Pricing.css";
 
 const Pricing = () => {
 	return (
-		<>
+		<div className="container">
 			<div className="my-5 px-4">
 				<div className="row px-0 mx-0">
 					<div className="col-12 col-md-4">
@@ -215,7 +215,7 @@ const Pricing = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

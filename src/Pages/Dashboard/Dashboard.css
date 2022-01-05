@@ -212,14 +212,14 @@
 	background: #333;
 }
 
-.container {
+#dashboard .container {
 	margin-left: 300px;
 	transition: margin-left 0.2s ease-in;
 	padding: 50px 30px;
 	box-sizing: border-box;
 }
 
-.container.inactive {
+#dashboard .container.inactive {
 	margin-left: 100px;
 }
 
@@ -228,7 +228,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-	.container.inactive {
+	#dashboard .container.inactive {
 		margin-left: 50px;
 	}
 	.side-menu.inactive .top-section .toggle-menu-btn {

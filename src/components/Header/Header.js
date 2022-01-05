@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<div className="border-bottom">
 
-			<nav className="">
+			<nav className="container">
 				<div className="navbar navbar-expand-lg navbar-light px-4">
 					<NavLink className="navbar-brand fs-4 fw-bold text-danger" to="/">
 						<i className="fas fa-project-diagram"></i> OpenPMS

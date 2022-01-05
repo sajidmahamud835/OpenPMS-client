@@ -9,9 +9,9 @@ import HomeStatistic from "./HomeStatistic/HomeStatistic";
 
 const Home = () => {
 	return (
-		<>
+		<div className="">
 
-			<Banner></Banner>
+			{/* <Banner></Banner> */}
 			<Pricing></Pricing>
 			<HomeFeatures></HomeFeatures>
 			<HomeStatistic></HomeStatistic>
@@ -19,7 +19,7 @@ const Home = () => {
 			<FAQ></FAQ>
 			<Team></Team>
 
-		</>
+		</div>
 	);
 };
 
