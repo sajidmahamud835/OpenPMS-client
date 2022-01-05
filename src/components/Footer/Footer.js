@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
-		<div className="border-top">
+		<div className="border-top mt-5">
 			<div className="px-4 container">
 				<footer className="py-5">
 					<div className="row justify-content-between">

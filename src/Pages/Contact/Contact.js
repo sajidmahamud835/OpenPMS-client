@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
 	return (
 		<>
-			<div className=" my-5 py-5">
-				<div className="px-5 mx-5">
+			<div className="container">
+				<div className="container">
 					<div className="text-center my-5">
 						<h1 className="bedroomdesign d-inline">Contact Us</h1>
 					</div>
@@ -12,7 +12,7 @@ const Contact = () => {
 						<div className="col-12 col-md-6">
 							<form
 								id="contactform"
-								action="https://formsubmit.io/send/farukeomar@gmail.com"
+								action="https://formsubmit.io/send/openpmsteam@gmail.com"
 								method="POST"
 							>
 								<input
