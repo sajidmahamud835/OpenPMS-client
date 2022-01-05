@@ -93,12 +93,12 @@ const SideMenu = (props) => {
 		<div className={`side-menu ${inactive ? "inactive" : ""}`}>
 			<div className="top-section">
 				<div className="logo-pms">
-					<Link
+					<a
 						className="fs-4 fw-bold text-danger text-decoration-none"
-						to="localhost:3000/home"
+						href="/home"
 					>
 						<i className="fas fa-project-diagram"></i> <span>OpenPMS</span>
-					</Link>
+					</a>
 				</div>
 				<div onClick={() => setInactive(!inactive)} className="toggle-menu-btn">
 					{inactive ? (
