@@ -1,0 +1,36 @@
+[debug] [2022-01-04T16:29:56.739Z] ----------------------------------------------------------------------
+[debug] [2022-01-04T16:29:56.758Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-01-04T16:29:56.758Z] CLI Version:   9.23.0
+[debug] [2022-01-04T16:29:56.759Z] Platform:      win32
+[debug] [2022-01-04T16:29:56.759Z] Node Version:  v14.17.1
+[debug] [2022-01-04T16:29:56.806Z] Time:          Tue Jan 04 2022 22:29:56 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-01-04T16:29:56.808Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-04T16:29:57.004Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-04T16:29:57.005Z] > authorizing via signed-in user (sajidmahamud835@gmail.com)
+[debug] [2022-01-04T16:29:57.005Z] [iam] checking project open-pms for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-01-04T16:29:57.009Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/open-pms:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-01-04T16:30:08.233Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2022-01-04T16:30:08.234Z] > refreshing access token with scopes: []
+[debug] [2022-01-04T16:30:08.235Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-04T16:30:29.263Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-01-04T16:30:29.266Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:141:12)
+    at refreshTokens (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:448:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.getAccessToken (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:146:23)
+    at async Client.addAuthHeader (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:137:21)
+    at async Client.request (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:93:34)
+    at async Object.getFirebaseProject (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
+    at async C:\Users\sajid\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project open-pms. Please make sure the project exists and your account has permission to access it.
